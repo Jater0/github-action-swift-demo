@@ -1,0 +1,14 @@
+default_platform(:ios)
+
+platform :ios do
+
+  desc "Test in Github Actions"
+  lane :tests_github_actions do
+    scan(scheme: "Github-Actions-Swift")
+  end
+
+  desc "Local test"
+  lane :tests_local do
+    scan(scheme: "Github-Actions-Swift")
+  end
+end
