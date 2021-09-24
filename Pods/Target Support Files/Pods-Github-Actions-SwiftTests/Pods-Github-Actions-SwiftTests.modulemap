@@ -1,0 +1,6 @@
+framework module Pods_Github_Actions_SwiftTests {
+  umbrella header "Pods-Github-Actions-SwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
